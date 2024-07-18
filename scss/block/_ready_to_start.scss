@@ -1,0 +1,33 @@
+.ready_to_start{
+    padding-bottom: 96px;
+}
+
+.ready_title {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 112%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #36536b;
+    margin-bottom: 32px;
+}
+
+
+@media screen and (min-width:1100px){
+    .ready_title{
+        margin-bottom: 0;
+    }
+.ready_block{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.ready_in{
+    width: 445px;
+}
+.hero_input_block{
+    display: flex;
+    justify-content: end;
+}
+}

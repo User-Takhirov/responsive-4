@@ -1,0 +1,64 @@
+.easy_to_implement{
+    padding-bottom: 93px;
+}
+.easy_img_block {
+    text-align: center;
+}
+
+.easy_des {
+    text-align: center;
+}
+
+.easy_title {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: #36536b;
+    margin-bottom: 24px;
+}
+
+.easy_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 187%;
+    color: #6c8294;
+}
+
+@media screen and (min-width:768px) {
+    .easy_title {
+        font-size: 48px;
+        line-height: 117%;
+    }
+
+    .easy_text {
+        font-size: 15px;
+        line-height: 187%;
+    }
+
+    .easy_img {
+        width: 391px;
+        height: 250px;
+    }
+}
+
+@media screen and (min-width:1100px) {
+    .easy_img {
+        width: 471px;
+        height: 500px;
+    }
+
+    .easy_block {
+        gap: 125px;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 445px);
+    }
+
+    .easy_des {
+        text-align: start;
+        width: 445px;
+    }
+}

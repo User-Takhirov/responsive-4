@@ -1,0 +1,70 @@
+.reminder {
+    padding: 80px 0;
+}
+
+
+.reminder_item {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.reminder_item:before {
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/reminder.svg);
+    width: 106px;
+    height: 106px;
+    display: inline-block;
+    margin-bottom: 33px;
+}
+
+.reminder_title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 139%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #36536b;
+    margin-bottom: 16px;
+}
+
+.reminder_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #6c8294;
+}
+
+@media screen and (min-width:768px) {
+    .reminder_list {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .reminder_item {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width:1100px) {
+
+    .reminder_list {
+        gap: 30px;
+    }
+
+    .reminder_text {
+        font-size: 15px;
+        line-height: 167%;
+    }
+
+    .reminder_title {
+        font-size: 18px;
+        line-height: 139%;
+    }
+}

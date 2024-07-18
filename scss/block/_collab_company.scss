@@ -1,0 +1,112 @@
+.collab_company {
+    margin: 80px 0;
+    background-color: #1B262F;
+}
+
+.collab_block {
+    padding: 80px 24px;
+}
+
+.collab_list {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+    row-gap: 46px;
+    margin-bottom: 56px;
+}
+
+.collab_title {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 112%;
+    letter-spacing: -0.01em;
+    color: #fbfcfe;
+    margin-bottom: 16px;
+}
+
+.collab_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 187%;
+    color: #fbfcfe;
+    margin-bottom: 60px;
+}
+
+.collab_btn_block {
+    text-align: center;
+}
+.collab_des{
+    text-align: center;
+}
+
+.collab_btn {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: -0.01em;
+    color: #fbfcfe;
+    border: 1px solid #fbfcfe;
+    border-radius: 24px;
+    background-color: transparent;
+    padding: 15px 32px;
+}
+
+@media screen and (min-width:768px) {
+    .collab_block {
+        text-align: center;
+    }
+
+    .collab_list {
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 64px;
+        column-gap: 62px;
+        row-gap: 46px;
+        // text-align: center;
+    }
+
+    .collab_title {
+        font-size: 48px;
+        line-height: 117%;
+        margin-bottom: 24px;
+    }
+
+    .collab_text {
+        font-size: 15px;
+        line-height: 187%;
+        margin-bottom: 32px;
+    }
+
+}
+
+@media screen and (min-width:1100px) {
+    .collab_block {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .collab_des {
+        text-align: start;
+        width: 455px;
+    }
+
+    .collab_btn_block {
+        text-align: start;
+    }
+
+    .collab_text {
+        margin-bottom: 32px;
+        font-size: 15px;
+        line-height: 187%;
+    }
+
+    .collab_title {
+        font-size: 48px;
+        line-height: 117%;
+    }
+
+}
